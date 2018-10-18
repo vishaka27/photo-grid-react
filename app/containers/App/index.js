@@ -16,10 +16,12 @@ import { Switch, Route } from 'react-router-dom';
 
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import PhotoGrid from '../PhotoGrid/Loadable';
+import Header from '../Header/Loadable';
 
 export default function App() {
   return (
     <div>
+      <Header />
       <Switch>
         <Route exact path="/" component={PhotoGrid} />
         <Route exact path="/home" component={App} />

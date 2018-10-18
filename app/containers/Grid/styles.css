@@ -1,8 +1,14 @@
 .photo-grid-wrapper img {
+    /* max-width: 100%;
+    height: auto;
+    padding: 5px; */
     max-width: 100%;
     height: auto;
-    /* cursor: pointer; */
-    padding: 5px;
+    /* padding: 1em; */
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-position: 65% 30%;
+    /* margin-bottom: 1em; */
 }
 
 .photo-grid-wrapper .photo-column {

@@ -6,7 +6,6 @@ export const Column = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #000;
 
   @media only screen and (min-width: 768px) {
     width: ${props => (props.span ? (props.span / 12) * 100 : '8.33')}%;
