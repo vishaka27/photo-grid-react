@@ -1,0 +1,10 @@
+.photo-grid-wrapper img {
+    max-width: 100%;
+    height: auto;
+    /* cursor: pointer; */
+    padding: 5px;
+}
+
+.photo-grid-wrapper .photo-column {
+    max-height: 550px;
+}
